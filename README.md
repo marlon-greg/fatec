@@ -16,7 +16,7 @@ Isso não só serve como um backup seguro do meu trabalho, mas também como um p
 O repositório está organizado em diretórios, cada um representando uma disciplina específica. A estrutura principal é a seguinte:
 
 * **/banco_de_dados_nr**: Exercícios e projetos da disciplina de Bancos de Dados Não Relacionais (explorando tecnologias como MongoDB).
-* **/programacao_mobile**: Projetos e exercícios focados no desenvolvimento de aplicações para dispositivos móveis.
+* **/programacao_mobile**: Projetos e exercícios focados no desenvolvimento de aplicações para dispositivos móveis com ReactNative
 * **/programcao_orientada_objeto**: Teoria e desenvolvimento de orientação ao objeto com JAVA
 
 Cada pasta de disciplina pode conter subpastas para aulas, trabalhos ou projetos específicos, mantendo tudo bem organizado.
@@ -25,7 +25,7 @@ Cada pasta de disciplina pode conter subpastas para aulas, trabalhos ou projetos
 
 As tecnologias utilizadas neste repositório variam de acordo com a disciplina, mas as principais incluem:
 
-* **Linguagens:** Python, JavaScript, Java, SQL
+* **Linguagens:** Python, JavaScript, Java, SQL, TypeScript
 * **Bancos de Dados:** MongoDB, MySQL, PostgreSQL
 * **Ferramentas:** Git, VS Code, Docker
 * **Outros:** HTML5, CSS3
