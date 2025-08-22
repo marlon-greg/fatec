@@ -7,7 +7,7 @@
 
 ## 🚀 Sobre o Repositório
 
-Olá! Meu nome é Marlon Greg e este é o meu espaço para organizar e documentar meu progresso acadêmico. O objetivo deste repositório é centralizar todos os materiais práticos, desde pequenos exercícios até projetos maiores, de cada disciplina cursada na FATEC.
+Olá! Meu nome é Marlon e este é o meu espaço para organizar e documentar meu progresso acadêmico. O objetivo deste repositório é centralizar todos os materiais práticos, desde pequenos exercícios até projetos maiores, de cada disciplina cursada na FATEC no curso de DESENVOLVIMENTO DE SISTEMAS.
 
 Isso não só serve como um backup seguro do meu trabalho, mas também como um portfólio dinâmico que demonstra minhas habilidades e aprendizados ao longo do curso.
 
