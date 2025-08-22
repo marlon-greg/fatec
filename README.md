@@ -15,10 +15,10 @@ Isso não só serve como um backup seguro do meu trabalho, mas também como um p
 
 O repositório está organizado em diretórios, cada um representando uma disciplina específica. A estrutura principal é a seguinte:
 
-* **`/banco_de_dados_nr`**: Exercícios e projetos da disciplina de Bancos de Dados Não Relacionais (explorando tecnologias como MongoDB).
-* **`/programacao_mobile`**: Projetos e exercícios focados no desenvolvimento de aplicações para dispositivos móveis.
-* **`/estrutura_de_dados`**: Implementações de algoritmos e estruturas de dados fundamentais. *(Exemplo de matéria, adicione as suas!)*
-* **`/engenharia_de_software`**: Diagramas, documentações e trabalhos relacionados a metodologias de desenvolvimento de software. *(Exemplo de matéria, adicione as suas!)*
+* **/banco_de_dados_nr**: Exercícios e projetos da disciplina de Bancos de Dados Não Relacionais (explorando tecnologias como MongoDB).
+* **/programacao_mobile**: Projetos e exercícios focados no desenvolvimento de aplicações para dispositivos móveis.
+* **/estrutura_de_dados**: Implementações de algoritmos e estruturas de dados fundamentais. *(Exemplo de matéria, adicione as suas!)*
+* **/engenharia_de_software**: Diagramas, documentações e trabalhos relacionados a metodologias de desenvolvimento de software. *(Exemplo de matéria, adicione as suas!)*
 
 Cada pasta de disciplina pode conter subpastas para aulas, trabalhos ou projetos específicos, mantendo tudo bem organizado.
 
@@ -31,37 +31,78 @@ As tecnologias utilizadas neste repositório variam de acordo com a disciplina, 
 * **Ferramentas:** Git, VS Code, Docker
 * **Outros:** HTML5, CSS3
 
-## 💻 Como Utilizar
+## 🗂️ Projetos e Como Executar
 
-Se você precisar executar algum dos projetos (principalmente os de Python), siga os passos abaixo:
+Cada pasta de matéria neste repositório contém projetos independentes. Abaixo estão as instruções detalhadas para configurar e executar os principais projetos de cada disciplina.
 
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/marlon-greg/fatec.git](https://github.com/marlon-greg/fatec.git)
-    ```
+---
 
-2.  **Navegue até a pasta do projeto específico:**
-    ```bash
-    cd fatec/banco_de_dados_nr/exercicios_aulas
-    ```
+### 📂 `banco_de_dados_nr`
 
-3.  **Crie e ative um ambiente virtual (recomendado):**
-    ```bash
-    # Criar o ambiente
-    python -m venv .venv
+Esta disciplina foca em bancos de dados não relacionais, com projetos práticos utilizando Python.
 
-    # Ativar no Windows
-    .\.venv\Scripts\activate
+#### 🐍 Projeto: Scripts de Manipulação com MongoDB
+* **Descrição:** Conjunto de scripts em Python para conectar, inserir e consultar dados em um banco MongoDB.
+* **Localização:** `/banco_de_dados_nr/exercicios_aulas/`
+* **Tecnologias:** `Python`, `PyMongo`
 
-    # Ativar no Linux/macOS
-    source .venv/bin/activate
-    ```
+* **Passos para Execução:**
+    1.  Navegue até o diretório do projeto:
+        ```bash
+        cd banco_de_dados_nr/exercicios_aulas
+        ```
+    2.  Crie e ative um ambiente virtual:
+        ```bash
+        # Criar o .venv
+        python -m venv .venv
+        
+        # Ativar no Windows
+        .\.venv\Scripts\activate
 
-4.  **Instale as dependências:**
-    Se houver um arquivo `requirements.txt`, instale as bibliotecas necessárias com:
-    ```bash
-    pip install -r requirements.txt
-    ```
+        # Ativar no Linux/macOS
+        source .venv/bin/activate
+        ```
+    3.  Instale as dependências listadas no `requirements.txt`:
+        ```bash
+        pip install -r requirements.txt
+        ```
+    4.  Execute o script desejado (ex: `conexao_mongo.py`):
+        ```bash
+        python conexao_mongo.py
+        ```
+
+---
+
+### 📂 `programacao_mobile`
+
+Projetos focados no desenvolvimento de aplicações para dispositivos móveis.
+
+#### 📱 Projeto: App de Lista de Tarefas (Exemplo)
+* **Descrição:** Um aplicativo simples para gerenciamento de tarefas, desenvolvido com React Native.
+* **Localização:** `/programacao_mobile/app-lista-tarefas/`
+* **Tecnologias:** `JavaScript`, `React Native`, `Node.js`
+
+* **Passos para Execução:**
+    1.  Certifique-se de ter o ambiente React Native configurado (Node.js, Watchman, Android Studio/Xcode).
+    2.  Navegue até o diretório do projeto:
+        ```bash
+        cd programacao_mobile/app-lista-tarefas
+        ```
+    3.  Instale todas as dependências do projeto:
+        ```bash
+        npm install
+        ```
+    4.  Inicie o aplicativo em um emulador ou dispositivo físico:
+        ```bash
+        # Para Android
+        npm run android
+
+        # Para iOS
+        npm run ios
+        ```
+---
+
+> **Dica de Organização:** Para projetos mais complexos, é uma ótima prática criar um `README.md` específico **dentro da pasta de cada projeto**, detalhando ainda mais suas funcionalidades e configurações.
 
 ## 👨‍💻 Autor
 
@@ -75,4 +116,6 @@ Feito com ❤️ por Marlon Greg.
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
-_Este README foi gerado em: 21 de agosto de 2025._
+_Este README foi atualizado em: 21 de agosto de 2025._
+
+````
