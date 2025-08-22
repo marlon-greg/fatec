@@ -8,3 +8,21 @@ CREATE TABLE cliente(
 	nome CHARACTER VARYING(250) NOT NULL,
 	cpf CHARACTER VARYING(12) NOT NULL
 );
+
+CREATE TYPE BANDEIRA AS ENUM (
+	'Visa',
+	'Mastercard',
+	'American Express',
+	'Elo',
+	'Hipercard',
+	'Outra'
+)
+
+CREATE TABLE pagamento(
+	id SERIAL PRIMARY KEY NOT NULL, 
+	numero_cartao CHARACTER VARYING(16) NOT NULL,
+	bandeira BANDEIRA NOT NULL,
+	validade TIMESTAMP WITHOUT TIME ZONE NOT NULL, 
+	
+);
+
