@@ -17,8 +17,7 @@ O repositório está organizado em diretórios, cada um representando uma discip
 
 * **/banco_de_dados_nr**: Exercícios e projetos da disciplina de Bancos de Dados Não Relacionais (explorando tecnologias como MongoDB).
 * **/programacao_mobile**: Projetos e exercícios focados no desenvolvimento de aplicações para dispositivos móveis.
-* **/estrutura_de_dados**: Implementações de algoritmos e estruturas de dados fundamentais. *(Exemplo de matéria, adicione as suas!)*
-* **/engenharia_de_software**: Diagramas, documentações e trabalhos relacionados a metodologias de desenvolvimento de software. *(Exemplo de matéria, adicione as suas!)*
+* **/programcao_orientada_objeto**: Teoria e desenvolvimento de orientação ao objeto com JAVA
 
 Cada pasta de disciplina pode conter subpastas para aulas, trabalhos ou projetos específicos, mantendo tudo bem organizado.
 
