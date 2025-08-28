@@ -81,3 +81,14 @@ CREATE TABLE item_pedido(
     CONSTRAINT fk_item_pedido_with_produto 
     FOREIGN KEY(id_produto) REFERENCES produto(id)
 );
+
+/*Aula 4 - 28-08-2025 */
+
+INSERT INTO produto (descricao, preco_unitario) VALUES
+('Segredos de quinta turma', 40);
+
+SELECT * FROM produto;
+
+
+
+
