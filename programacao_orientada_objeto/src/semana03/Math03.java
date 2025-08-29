@@ -1,5 +1,4 @@
-package src.semana03;
-
+package semana03;
 public class Math03 {
 
     public static void main(String[] args) {

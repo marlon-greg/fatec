@@ -1,4 +1,4 @@
-package src.semana03;
+package semana03;
 
 import javax.swing.JOptionPane;
 

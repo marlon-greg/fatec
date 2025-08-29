@@ -11,14 +11,8 @@ public class Excecao01{
             Thread.sleep(2000); // Exceção checked
         }
         catch(InterruptedException e){
-            
+
         }
-
-
-
-
-
-
 
     }
 }
