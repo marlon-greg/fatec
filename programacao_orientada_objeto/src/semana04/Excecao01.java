@@ -7,6 +7,18 @@ public class Excecao01{
         
         int n = Integer.parseInt(JOptionPane.showInputDialog("Idade? "));
 
-        Tread.sleep(2000); // Exceção checked
+        try{        
+            Thread.sleep(2000); // Exceção checked
+        }
+        catch(InterruptedException e){
+            
+        }
+
+
+
+
+
+
+
     }
 }
