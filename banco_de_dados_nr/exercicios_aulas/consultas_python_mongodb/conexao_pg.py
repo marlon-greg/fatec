@@ -6,6 +6,8 @@ password = 'admin'
 host = 'localhost'
 port = '5432'
 
+
+
 try:
     #SQL Alchemy -> Pesquisar isso depois
     #Criando a conexao
