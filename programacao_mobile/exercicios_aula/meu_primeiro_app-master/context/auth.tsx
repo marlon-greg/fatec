@@ -34,7 +34,7 @@ export const AuthProvider: React.FC<IAuthProviderProps> = ({ children }: IAuthPr
         const auth = initializeAuth(app)
         signInWithEmailAndPassword(auth, user.email, user.password)
         .then(() => {
-            router.push('home')
+            router.push('profile')
         }
         ).catch((error) => {
            console.log('falha ao autenticar')
