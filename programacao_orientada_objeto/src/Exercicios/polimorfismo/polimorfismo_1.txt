@@ -1,0 +1,3 @@
+Não será possível implementar o polimorfismo na classe 2 (que tem o método calcular). 
+
+Pois para implementar polimorfismo, os métodos precisar ter idêntico a informações de nome. Ao utilizar o @override ele irá validar se consta com a mesma nomenclatura, e caso não esteja resultará em erro. 
